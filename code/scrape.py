@@ -4,7 +4,7 @@ from selenium.webdriver.chromium.remote_connection import ChromiumRemoteConnecti
 from bs4 import BeautifulSoup
 
 # Use environment variable for Bright Data credentials if set
-AUTH = os.getenv('BRIGHTDATA_AUTH', 'brd-customer-hl_81a2698a-zone-scraping_browser1:qgfb8bhxerh5')
+AUTH = os.getenv('BRIGHTDATA_AUTH')
 SBR_WEBDRIVER = f'https://{AUTH}@brd.superproxy.io:9515'
 
 def scrape_website(website: str) -> str:
