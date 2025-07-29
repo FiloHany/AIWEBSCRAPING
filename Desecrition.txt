@@ -1,0 +1,21 @@
+main.py
+
+Step 1 : UI
+streamlit :=> this is a way to create simple python web application (few lines of code) 
+easiest way to interact with things(like LLM)
+__________________________________________________________________________________________
+Step 2 : GRAP  DATA FROM WEBSITE THAT WE WANT TO SCRAPE
+Selenium :=> Allow Us to Automate A web browser so actually Navigate To a webPage.
+__________________________________________________________________________________________
+Step 3 : Model 
+We can grap all of the content that's on that page then we could do some Filtering On it, and we can pass it into LLM.
+And then we can use that "LLM" to actually  Parse through the data and give US some meaningful response .
+
+__________________________________________________________________________________________
+
+scrape.py
+
+we are going to make a funtion that takes website URL and just return all the content from that website
+And we will connect to a service Known as bright data service , which allow us to do this on large scale by pass 
+things like captches internet protocol BAN'S and other blocks that you commonly Encounter 
+
